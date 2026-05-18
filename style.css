@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#0f766e;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    padding:20px;
+}
+
+.container{
+    width:1200px;
+    background:white;
+    border-radius:15px;
+    padding:50px;
+    position:relative;
+    overflow:hidden;
+}
+
+/* Left Circle */
+
+.circle-left{
+    width:280px;
+    height:280px;
+    background:#5eead4;
+    border-radius:50%;
+    position:absolute;
+    top:-100px;
+    left:-100px;
+    opacity:0.5;
+}
+
+/* Right Circle */
+
+.circle-right{
+    width:220px;
+    height:220px;
+    background:#14b8a6;
+    border-radius:50%;
+    position:absolute;
+    bottom:-90px;
+    right:-90px;
+    opacity:0.5;
+}
+
+/* Top Text */
+
+.top-text{
+    position:absolute;
+    top:30px;
+    right:40px;
+    text-align:right;
+}
+
+.top-text h3{
+    color:#0f766e;
+    margin-bottom:5px;
+}
+
+.top-text h2{
+    color:purple;
+}
+
+/* Main Heading */
+
+h1{
+    text-align:center;
+    color:#0f766e;
+    font-size:50px;
+    margin-bottom:40px;
+}
+
+/* Content */
+
+.content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:40px;
+}
+
+/* Left Side */
+
+.left{
+    width:65%;
+}
+
+.left h2{
+    color:#0f766e;
+    margin-bottom:15px;
+}
+
+.left ul{
+    margin-left:30px;
+    margin-bottom:25px;
+}
+
+.left li{
+    margin-bottom:12px;
+    line-height:1.7;
+    color:#333;
+    font-size:18px;
+}
+
+/* Step Heading */
+
+.step h3{
+    color:#0f766e;
+    margin-bottom:15px;
+    font-size:28px;
+}
+
+/* Right Side */
+
+.right{
+    width:35%;
+    text-align:center;
+}
+
+.right img{
+    width:100%;
+}
